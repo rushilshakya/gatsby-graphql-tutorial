@@ -1,4 +1,7 @@
 module.exports = {
+  siteMetadata: {
+    title: `Pandas eating`,
+  },
   plugins: [
     `gatsby-plugin-emotion`,
     {

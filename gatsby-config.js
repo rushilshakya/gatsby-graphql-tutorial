@@ -1,6 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `Pandas eating lots`,
+    author: `me`,
+    description: `about pandas`,
   },
   plugins: [
     {

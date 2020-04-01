@@ -19,6 +19,7 @@ function SEO({ description, lang, meta, title }) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  title = title === undefined ? site.siteMetadata.title : title
 
   return (
     <Helmet
